@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Backofen
+comment0.text=\r\n\ Beschreiben\ Sie\ hier\ die\ Klasse\ Backofen.\r\n\ \r\n\ @author\ (Ihr\ Name)\ \r\n\ @version\ (eine\ Versionsnummer\ oder\ ein\ Datum)\r\n
+comment1.params=
+comment1.target=Backofen()
+comment1.text=\r\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ Backofen\r\n
+comment2.params=seconds
+comment2.target=void\ setTimer(int)
+numComments=3
