@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Temperatur
+comment0.text=\r\n\ Beschreiben\ Sie\ hier\ die\ Klasse\ Temperatur.\r\n\ \r\n\ @author\ (Ihr\ Name)\ \r\n\ @version\ (eine\ Versionsnummer\ oder\ ein\ Datum)\r\n
+comment1.params=
+comment1.target=Temperatur()
+comment1.text=\r\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ Temperatur\r\n
+comment2.params=initEarthTempCelsius
+comment2.target=Temperatur(double)
+comment2.text=\r\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ Temperatur\r\n
+comment3.params=
+comment3.target=double\ getEarthTempCelsius()
+comment4.params=newTemp
+comment4.target=void\ setEarthTempCelsius(double)
+comment5.params=
+comment5.target=double\ getEarthTempKelvin()
+comment6.params=
+comment6.target=double\ getEarthTempFahreinheit()
+comment7.params=add
+comment7.target=void\ increaseTemp(double)
+comment8.params=sub
+comment8.target=void\ decreaseTemp(double)
+numComments=9
