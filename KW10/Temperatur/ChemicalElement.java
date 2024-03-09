@@ -10,9 +10,9 @@ public class ChemicalElement
     // Instanzvariablen - ersetzen Sie das folgende Beispiel mit Ihren Variablen
     private String name = "Stickstoff";
     
-    private int boilingPoint = 3;
-    private int MeltingPoint = 3;
-    private int FreezingPoint = 3;
+    private float boilingPoint = 39;
+    private float MeltingPoint = 19;
+    private float FreezingPoint = 3;
 
     /**
      * Konstruktor für Objekte der Klasse ChemicalElement
@@ -32,7 +32,13 @@ public class ChemicalElement
      * @param  y    ein Beispielparameter für eine Methode
      * @return        die Summe aus x und y
      */
-    public AggregatszustandEnum getAggregatszustand(double temp) {
-        return AggregatszustandEnum.Fest;
+    public AggregatszustandEnum getAggregatszustand(float temp) {
+        if (temp <= FreezingPoint) {
+            return AggregatszustandEnum.Fest;
+        } else if (temp >= boilingPoint) {
+            return AggregatszustandEnum.Gasfoermig;
+        } else {
+            return AggregatszustandEnum.Fluessig;
+        }
     }
 }
