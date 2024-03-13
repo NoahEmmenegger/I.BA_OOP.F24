@@ -2,6 +2,10 @@ package KW10.Iteration;
 
 public class IterationDemo {
     // Teil a.) (for-Schleife)
+    /**
+     * Prints numbers from 0 to 10 using a for loop.
+     * @return void
+     */
     public static void printNumbersFor() {
         for (int i = 0; i <= 10; i++) {
             System.out.println(i);
@@ -49,6 +53,11 @@ public class IterationDemo {
     }
 
     // Teil f.)
+    /**
+     * Prints a box with the given width and height.
+     * @param width
+     * @param height
+     */
     public static void printBox(final int width, final int height) {
         for (int i = 0; i < height; i++) {
             if (i == 0 || i == height - 1) {

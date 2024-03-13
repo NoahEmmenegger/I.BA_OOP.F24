@@ -1,0 +1,52 @@
+@startuml
+
+interface Switchable {
+    + switchOn(): void
+    + switchOff(): void
+    + isSwitchedOn(): boolean
+    + isSwitchedOff(): boolean
+}
+
+class Fahrzeug {
+    - motor: Motor
+    - licht: Licht
+    - scheibenwischer: Scheibenwischer
+    - klima: Klimaanlage
+    - switchedOn: boolean
+    + switchOn(): void
+    + switchOff(): void
+    + isSwitchedOn(): boolean
+    + isSwitchedOff(): boolean
+}
+
+class Motor {
+    - power: int
+    + switchOn(): void
+    + switchOff(): void
+}
+
+class Licht {
+    - brightness: int
+    + switchOn(): void
+    + switchOff(): void
+}
+
+class Scheibenwischer {
+    - speed: int
+    + switchOn(): void
+    + switchOff(): void
+}
+
+class Klimaanlage {
+    - temperature: int
+    + switchOn(): void
+    + switchOff(): void
+}
+
+Fahrzeug --|> Switchable
+Motor --|> Switchable
+Licht --|> Switchable
+Scheibenwischer --|> Switchable
+Klimaanlage --|> Switchable
+
+@enduml
