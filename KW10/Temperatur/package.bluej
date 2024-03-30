@@ -1,16 +1,16 @@
 #BlueJ package file
-dependency1.from=ChemicalElement
+dependency1.from=Temperatur
 dependency1.to=AggregatszustandEnum
 dependency1.type=UsesDependency
 dependency2.from=Temperatur
-dependency2.to=AggregatszustandEnum
+dependency2.to=ChemicalElement
 dependency2.type=UsesDependency
-dependency3.from=Temperatur
-dependency3.to=ChemicalElement
+dependency3.from=ChemicalElement
+dependency3.to=AggregatszustandEnum
 dependency3.type=UsesDependency
-editor.fx.0.height=822
-editor.fx.0.width=780
-editor.fx.0.x=760
+editor.fx.0.height=0
+editor.fx.0.width=0
+editor.fx.0.x=0
 editor.fx.0.y=0
 objectbench.height=93
 objectbench.width=439
